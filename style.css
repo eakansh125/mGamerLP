@@ -184,6 +184,10 @@ color: #2F2F2F;
     font-weight: 600;
 }
 
+.btn-sec:focus{
+    outline: none;
+}
+
 .btn-prim{
     width: 10rem;
     height: 3rem;
@@ -192,6 +196,11 @@ color: #2F2F2F;
     color: #FFFFFF;
     border-radius: 12px;
 }
+
+.btn-prim:focus{
+    outline: none;
+}
+
 
 /* .btn-sec:hover{
     background-color: #6A26FA;
