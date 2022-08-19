@@ -122,25 +122,20 @@ body{
 .heading{
     /* height: 108px; */
     width: 538px;
-    left: 120px;
-    top: 265px;
     font-family: Poppins;
     font-size: 44px;
     font-weight: 700;
     line-height: 54px;
     letter-spacing: 0px;
     text-align: left;
-    
 }
 
 .desc{
     height: 64px;
     width: 558px;
-    left: 120px;
-    top: 393px;
     font-family: Poppins;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 32px;
     letter-spacing: 0em;
     text-align: left;
@@ -633,13 +628,70 @@ margin-bottom: 1rem;
 }
 
 .top-left{
-    top: -100px;
-    left: -150px;
+    top: -50px;
+    left: -100px;
     z-index: 5;
 }
 
 .bottom-right{
-    bottom: -100px;
-    right: -150px;
+    bottom: -50px;
+    right: -100px;
     z-index: 6;
+}
+
+.client-card{
+    box-sizing: border-box;
+    width: 30rem;
+    height: 16rem;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: 1px solid #E0E7FB;
+    box-shadow: 5px 7px 18px 2px rgba(0, 0, 0, 0.07);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.client-card-container{
+    width: 85%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.client-container-upper{
+    width: 55%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.client-container-lower{
+    width: 100%;
+    height: 60%;
+    background-color: #E2D5FF;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.client-text{
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.client-img{
+    object-fit: cover;
+    height: 100%;
+}
+
+.client-container-upper-header{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
