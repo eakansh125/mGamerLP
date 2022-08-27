@@ -1226,8 +1226,8 @@ margin-bottom: 1rem;
 
     .four-down-right-container{
         margin-top: 2rem;
-        width: 100%;
-        padding: 2rem;
+        width: 90%;
+        padding: 0;
         /* background-color: #E0E7FB; */
         height: 100%;
     }
@@ -1251,7 +1251,8 @@ margin-bottom: 1rem;
     .five-left{
         flex: 1;
         height: 20vh;
-        padding: 0 2rem;
+        width: 90%;
+        padding: 0;
         /* background-color: #6A26FA; */
     }
 
