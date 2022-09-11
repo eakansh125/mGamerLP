@@ -1029,6 +1029,7 @@ margin-bottom: 1rem;
     .heading,.heading-four-two,.final-typo-heading,.numbers{
         font-size: 22px;
         width: auto;
+        line-height: 36px;
     }
 
     .heading-four{
