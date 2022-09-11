@@ -142,6 +142,10 @@ body{
     text-align: left;
 }
 
+.desc-lower{
+    text-align: center;
+}
+
 .numbers{
 
 font-family: 'Poppins';
@@ -1059,6 +1063,7 @@ margin-bottom: 1rem;
         display: flex;
         font-size: 14px;
         padding: 5px;
+        text-align: center;
     }
 
     .btn-prim{
