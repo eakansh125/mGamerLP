@@ -569,7 +569,7 @@ line-height: 66px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
 }
 
 .final-low-up-left{
